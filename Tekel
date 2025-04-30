@@ -1,0 +1,75 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bade Tekel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Bade Tekel</div>
+    <nav class="nav">
+      <a href="#catalog">Katalog</a>
+      <a href="#about">Hakkımızda</a>
+      <a href="#contact">İletişim</a>
+      <a href="#account">Hesabım</a>
+      <a href="#cart">Sepet</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Bade Tekel'e Hoş Geldiniz</h1>
+    <p>En iyi içkiler sadece bizde</p>
+  </section>
+
+  <section class="search-filter">
+    <input type="text" id="search-bar" placeholder="Ürün Ara..." />
+    <select id="category-filter">
+      <option value="all">Tüm Kategoriler</option>
+      <option value="wine">Şarap</option>
+      <option value="beer">Bira</option>
+      <option value="whiskey">Viski</option>
+    </select>
+  </section>
+
+  <section class="popular">
+    <h2>Popüler Ürünler</h2>
+    <div class="product-grid">
+      <div class="product-card" data-category="wine">
+        <img src="images/wine.jpg" alt="Şarap" />
+        <h3>Kırmızı Şarap</h3>
+        <p>₺120</p>
+        <button class="add-to-cart">Sepete Ekle</button>
+      </div>
+      <div class="product-card" data-category="beer">
+        <img src="images/beer.jpg" alt="Bira" />
+        <h3>İzmir Birası</h3>
+        <p>₺45</p>
+        <button class="add-to-cart">Sepete Ekle</button>
+      </div>
+      <div class="product-card" data-category="whiskey">
+        <img src="images/whiskey.jpg" alt="Viski" />
+        <h3>Chivas Regal</h3>
+        <p>₺350</p>
+        <button class="add-to-cart">Sepete Ekle</button>
+      </div>
+    </div>
+  </section>
+
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>Ürün Sepete Eklendi</h2>
+      <button>Sepete Git</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2025 Bade Tekel. Tüm hakları saklıdır.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
