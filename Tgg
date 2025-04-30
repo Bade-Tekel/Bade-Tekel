@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bade Tekel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Bade Tekel</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Ana Sayfa</a></li>
+                    <li><a href="#">Ürünler</a></li>
+                    <li><a href="#">Sepet</a></li>
+                    <li><a href="#">Hakkımızda</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>En iyi alkollü içecekler burada!</h2>
+            <p>Sizler için en kaliteli içkileri seçtik.</p>
+            <button class="cta-btn">Ürünleri Keşfet</button>
+        </section>
+
+        <section class="products">
+            <h2>Popüler Ürünler</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="product1.jpg" alt="Ürün 1">
+                    <p>Ürün 1</p>
+                    <span>₺100</span>
+                </div>
+                <div class="product-item">
+                    <img src="product2.jpg" alt="Ürün 2">
+                    <p>Ürün 2</p>
+                    <span>₺150</span>
+                </div>
+                <div class="product-item">
+                    <img src="product3.jpg" alt="Ürün 3">
+                    <p>Ürün 3</p>
+                    <span>₺200</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Bade Tekel. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
